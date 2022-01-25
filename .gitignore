@@ -1,0 +1,8 @@
+output.csv
+ny_taxi_postgres_data
+ny_taxi_data
+data_pgadmin
+.terraform
+terraform.tfstate
+.terraform.lock.hcl
+docksdocks.yml
