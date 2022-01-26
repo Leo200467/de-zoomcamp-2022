@@ -6,3 +6,4 @@ data_pgadmin
 terraform.tfstate
 .terraform.lock.hcl
 docksdocks.yml
+logs
