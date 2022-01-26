@@ -1,4 +1,4 @@
-# de-zoomcamp-week-1-basics-n-setup
+# Data Engineering Zoomcamp 2022 - Week 1 - Basics and Setup
 
 Data Engineering Zoomcamp
 
