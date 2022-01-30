@@ -1,4 +1,4 @@
-# de-zoomcamp-2022
+# Data Engineering Zoomcamp 2022
 
 ## This repo contains week-by-week following Data Engineering Zoomcamp by Data Talks. 
 
