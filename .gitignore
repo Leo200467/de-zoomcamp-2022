@@ -7,3 +7,5 @@ terraform.tfstate
 .terraform.lock.hcl
 docksdocks.yml
 logs
+.env
+de-zoomcamp-week-2-data-ingestion/airflow/.env
