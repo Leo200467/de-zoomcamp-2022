@@ -26,6 +26,10 @@ Started: 24 January 2022
 
 * First Data Transfer job in Google Cloud using "Data Transfer" tool. 
 
+* Transfering local data to PostgreSQL using Airflow DAG. 
+
+* Transfering data from S3 to Google Cloud using Airflow, data is also converted from CSV to Parquet.  
+
 Homework TBD
 
-Details TBD. 
+More details can be found in this [folder](/de-zoomcamp-week-2-data-ingestion) 

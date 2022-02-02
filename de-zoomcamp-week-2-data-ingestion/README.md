@@ -4,8 +4,11 @@
 
 - [x] Introduction to Data Lake (GCS)
 - [x] Introduction to Orchestration (Airflow)
-- [x] Setting up Docker with Airflow: -- 15 minsr
-- [ ] Data ingestion DAG: -- 30 mins
-- [ ] Cloud-based, i.e. with GCP (GCS + BigQuery)
-- [ ] Local, with Postgres
-- [ ] Further Enhancements: Transfer Service (AWS -> GCP)
+- [x] Setting up Docker with Airflow 
+- [x] Data ingestion DAG 
+- [x] Cloud-based, i.e. with GCP (GCS + BigQuery)
+- [x] Local, with Postgres
+- [x] Further Enhancements: Transfer Service (AWS -> GCP)
+- [ ] Modify the DAG we created during the lessons for transferring the yellow taxi data
+- [ ] Create a new DAG for transferring the FHV (for-hire vehicles, for 2019 only) data
+- [ ] Create another DAG for the Zones data
