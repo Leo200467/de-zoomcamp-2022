@@ -1,6 +1,8 @@
 import os
 import logging
 
+from datetime import datetime
+
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.bash import BashOperator
@@ -14,8 +16,10 @@ import pyarrow.parquet as pq
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
-dataset_file = "yellow_tripdata_2021-01.csv"
-dataset_url = f"https://s3.amazonaws.com/nyc-tlc/trip+data/{dataset_file}"
+DATETIME_FORMAT = "{{ execution_date.strftime(\'%Y-%m\') }}"
+
+dataset_file = "taxi_zone_lookup.csv"
+dataset_url = "https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv"
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
 parquet_file = dataset_file.replace('.csv', '.parquet')
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'trips_data_all')
@@ -53,24 +57,26 @@ def upload_to_gcs(bucket, object_name, local_file):
 
 default_args = {
     "owner": "airflow",
-    "start_date": days_ago(1),
     "depends_on_past": False,
     "retries": 1,
 }
 
 # NOTE: DAG declaration - using a Context Manager (an implicit way)
-with DAG(
-    dag_id="data_ingestion_gcs_dag",
-    schedule_interval="@daily",
+zone_data_ingestion = DAG(
+    dag_id="zone-data-ingestion-dag",
+    schedule_interval="0 6 2 * *",
     default_args=default_args,
-    catchup=False,
-    max_active_runs=1,
-    tags=['dtc-de'],
-) as dag:
+    start_date=days_ago(0),
+    catchup=True,
+    max_active_runs=3,
+    tags=['de-zoomcamp'],
+)
+
+with zone_data_ingestion:
 
     download_dataset_task = BashOperator(
         task_id="download_dataset_task",
-        bash_command=f"curl -sS {dataset_url} > {path_to_local_home}/{dataset_file}"
+        bash_command=f"curl -sSLf {dataset_url} > {path_to_local_home}/{dataset_file}"
     )
 
     format_to_parquet_task = PythonOperator(
