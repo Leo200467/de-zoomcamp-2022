@@ -36,9 +36,7 @@ More details can be found in this [folder](/de-zoomcamp-week-2-data-ingestion)
 
 ### Week 3 - Data Warehouse
 
-Goal: Structuring data into a Data Warehouse
-
-Instructor: Ankush
+Started: 31 January 2022
 
 * Data warehouse (BigQuery) (25 minutes)
 * What is a data warehouse solution
