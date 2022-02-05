@@ -9,6 +9,6 @@
 - [x] Cloud-based, i.e. with GCP (GCS + BigQuery)
 - [x] Local, with Postgres
 - [x] Further Enhancements: Transfer Service (AWS -> GCP)
-- [ ] Modify the DAG we created during the lessons for transferring the yellow taxi data
-- [ ] Create a new DAG for transferring the FHV (for-hire vehicles, for 2019 only) data
-- [ ] Create another DAG for the Zones data
+- [x] Modify the DAG we created during the lessons for transferring the yellow taxi data
+- [x] Create a new DAG for transferring the FHV (for-hire vehicles, for 2019 only) data
+- [x] Create another DAG for the Zones data
