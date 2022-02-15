@@ -1,0 +1,9 @@
+my-profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account-json
+      project: [halogen-byte-339200]
+      dataset: [nyc_taxi_data]
+      location: southamerica-east1
