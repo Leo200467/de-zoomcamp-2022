@@ -1,43 +1,33 @@
 # Data Engineering Zoomcamp 2022 - Week 4 - Analytics Engineering
 
+### Goal: Transforming Data in DWH to Analytical Views
+
+#### All process was made using DBT Cloud
+
 ### Introduction to analytics engineering (15 mins)
- * What is analytics engineering?
- * ETL vs ELT 
- * Data modeling concepts (fact and dim tables)
- - Video
+- [X] What is analytics engineering?
+- [X] ETL vs ELT 
+- [X] Data modeling concepts (fact and dim tables)
 
 ### Starting a dbt project
- * What is dbt? 
- * dbt cloud setup
- * locally? 
- * Starting a new project with dbt init (dbt cloud and core)
- * project.yml
- - Video
+- [X] What is dbt? (Best source to understand is [this post](https://blog.getdbt.com/what-exactly-is-dbt/))
+- [X] Dbt cloud setup
+- [X] Starting a new project with dbt init (dbt cloud and core)
+- [X] project.yml
  
 ### Development of dbt models
- * Anatomy of a dbt model: written code vs compiled Sources
- * Materialisations: table, view, incremental, ephemeral  
- * Seeds, sources and ref  
- * Jinja and Macros 
- - Video
+- [X] Anatomy of a dbt model: written code vs compiled Sources
+- [ ] Materialisations: table, view, incremental, ephemeral  
+- [X] Seeds, sources and ref  
+- [X] Jinja and Macros 
 
 ### Testing and documenting dbt models
- * Tests  
- * Documentation 
- - Video
+- [ ] Tests  
+- [X] Documentation 
 
 ### Deploying a dbt project
- * Deployment: local development vs production 
- * DBT cloud: scheduler, sources and hosted documentation
- - Video
+- [X] Deployment: development vs production 
+- [X] DBT cloud: scheduler, sources and hosted documentation
 
 ### Visualising the transformed data
- * Google data studio -> Dashboard
-
-### Extra knowledge:
- * DBT cli (local) ?? -> may be part of the initial section
- * Packages 
-
-### Homework 
-
-Homeworkd TBD
+- [X] Google data studio -> Dashboard (I personally will let GDS aside and try visualization in Power BI)
