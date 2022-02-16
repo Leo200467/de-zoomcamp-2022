@@ -51,3 +51,15 @@ Started: 31 January 2022
 All homework completed.
 
 More details can be found in this [folder](/de-zoomcamp-week-3-data-warehouse) 
+
+### Week 4: Analytics engineering
+
+Started: 7 February
+
+* Basics of analytics engineering (15 mins)
+* Developing a dbt project (Combination of coding + theory) (1:30)
+* Visualising the data in Google data studio (15 mins)
+
+Homework TBD
+
+More details can be found in this [folder](/de-zoomcamp-week-4-analytics-engineering)
