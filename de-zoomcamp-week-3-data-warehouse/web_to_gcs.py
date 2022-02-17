@@ -36,11 +36,12 @@ def upload_to_gcs(bucket, object_name, local_file):
 
 
 def web_to_gcs(year, service):
-    for i in range(13):
+    for i in range(12):
         month = '0'+str(i+1)
         month = month[-2:]
         file_name = service + '_tripdata_' + year + '-' + month + '.csv'
         request_url = init_url + file_name
+        print(f"Requesting file: {file_name} at url {request_url}")
         r = requests.get(request_url)
         pd.DataFrame(io.StringIO(r.text)).to_csv(file_name)
         print(f"Local: {file_name}")
@@ -57,8 +58,9 @@ def web_to_gcs(year, service):
         upload_to_gcs(BUCKET, f"{service}/{file_name}", file_name)
         print(f"GCS: {service}/{file_name}")
 
-
-web_to_gcs('2019', 'green')
-web_to_gcs('2020', 'green')
+web_to_gcs('2019', 'fhv')
+web_to_gcs('2020', 'fhv')
+# web_to_gcs('2019', 'green')
+# web_to_gcs('2020', 'green')
 # web_to_gcs('2019', 'yellow')
 # web_to_gcs('2020', 'yellow')
