@@ -1,3 +1,7 @@
 packages:
   - package: dbt-labs/dbt_utils
     version: 0.8.0
+
+
+    yellow_row_count - 56100630
+    green_row_count - 6304783
