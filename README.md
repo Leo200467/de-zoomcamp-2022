@@ -63,3 +63,13 @@ Started: 7 February
 Homework TBD
 
 More details can be found in this [folder](/de-zoomcamp-week-4-analytics-engineering)
+
+### Week 5: Batch processing
+
+Started: 16 February
+
+* Batch processing
+* What is Spark
+* Spark Dataframes
+* Spark SQL
+* Internals: GroupBy and joins
