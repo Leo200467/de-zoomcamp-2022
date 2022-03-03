@@ -17,7 +17,7 @@ My thoughts are simple: it's a easier alternative than creating a VM Instance in
 
 I will assume that you have a GCP acccount up and running and already enabled Dataproc API in your project. 
 
-This is the link for [Dataproc](images/https://cloud.google.com/dataproc). 
+This is the link for [Dataproc](https://cloud.google.com/dataproc). 
 
 ## 1. First Step - Create a cluster in Dataproc. 
 
