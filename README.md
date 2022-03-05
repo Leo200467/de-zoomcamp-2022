@@ -60,7 +60,7 @@ Started: 7 February
 * Developing a dbt project (Combination of coding + theory) (1:30)
 * Visualising the data in Google data studio (15 mins)
 
-Homework TBD
+All homework completed.
 
 More details can be found in this [folder](/de-zoomcamp-week-4-analytics-engineering)
 
@@ -73,3 +73,8 @@ Started: 16 February
 * Spark Dataframes
 * Spark SQL
 * Internals: GroupBy and joins
+* Resilient Distributed Dataset (RDD)
+
+All homework completed.
+
+More details can be found in this [folder](/de-zoomcamp-week-5-batch-processing)
