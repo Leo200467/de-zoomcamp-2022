@@ -3,13 +3,26 @@
 ### Goal: Understand and apply batch processing using Spark
 
 ### Spark: Distributed Processing
-- [ ] Introduction to batch processing
-- [ ] Spark Introduction 
+- [X] Introduction to batch processing
+- [X] Spark Introduction 
 
 ### Setting up Spark
-- [ ] Installing Spark (Linux)
+- [X] Installing Spark (Linux)
+
+Created a guide on how to use Spark in [Google DataProc Cluster](pyspark_in_dataproc_cluster.md).
+Using PySpark with DataProc can result in easier and more pratical access to data inside Google Platform. 
+You can easily connect with Cloud Storage, BigQuery and dispose jobs in your clusters.
  
 ### Spark/PySpark
-- [ ] First Look at Spark/PySpark
-- [ ] Spark Dataframes  
-- [ ] Prepare a Dataset for this week  
+- [X] First Look at Spark/PySpark
+- [X] Spark Dataframes  
+- [X] Prepare a Dataset for this week  
+
+### Spark Internals
+- [X] Anatomy of a Spark Cluster
+- [X] GroupBy in Spark
+- [X] Joins in Spark
+
+### RDDs
+
+Coming soon
