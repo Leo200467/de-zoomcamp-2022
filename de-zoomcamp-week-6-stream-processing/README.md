@@ -3,20 +3,20 @@
 ### Goal: Learn about Kafka, stream processing, KStream, Kafka Connect and KSQL
 
 ### Introduction to Kafka
-- [X] Intro to Kafka
-- [X] Configuration Terms
-- [X] Avro and Schema registry
+- [ ] Intro to Kafka
+- [ ] Configuration Terms
+- [ ] Avro and Schema registry
 
 ### KStreams
-- [X] KStream Basics
-- [X] KStream Join and Windowing
-- [X] KStream Advanced Features
-- [X] Python Faust
-    - [X] Faust Docs
-    - [X] KStream vs Faust
-- [X] JVM Library
-    - [X] Confluent Kafka Stream
+- [ ] KStream Basics
+- [ ] KStream Join and Windowing
+- [ ] KStream Advanced Features
+- [ ] Python Faust
+    - [ ] Faust Docs
+    - [ ] KStream vs Faust
+- [ ] JVM Library
+    - [ ] Confluent Kafka Stream
 
 ### Kafka Connect and KSQL
-- [X] Kafka Connect  
-- [X] KSQL  
+- [ ] Kafka Connect  
+- [ ] KSQL  
