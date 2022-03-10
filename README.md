@@ -38,12 +38,12 @@ More details can be found in this [folder](/de-zoomcamp-week-2-data-ingestion)
 
 Started: 31 January 2022
 
-* Data warehouse (BigQuery) (25 minutes)
+* Data warehouse (BigQuery) 
 * What is a data warehouse solution
-* What is big query, why is it so fast, Cost of BQ, (5 min)
-* Partitoning and clustering, Automatic re-clustering (10 min)
-* Pointing to a location in google storage (5 min)
-* Loading data to big query & PG (10 min) -- using Airflow operator?
+* What is big query, why is it so fast, Cost of BQ
+* Partitoning and clustering, Automatic re-clustering
+* Pointing to a location in google storage
+* Loading data to big query & PG -- using Airflow operator
 * BQ best practices
 * Misc: BQ Geo location, BQ ML
 * Alternatives (Snowflake/Redshift)
@@ -56,9 +56,9 @@ More details can be found in this [folder](/de-zoomcamp-week-3-data-warehouse)
 
 Started: 7 February
 
-* Basics of analytics engineering (15 mins)
-* Developing a dbt project (Combination of coding + theory) (1:30)
-* Visualising the data in Google data studio (15 mins)
+* Basics of analytics engineering
+* Developing a dbt project (Combination of coding + theory)
+* Visualising the data in Google data studio 
 
 All homework completed.
 
