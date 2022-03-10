@@ -78,3 +78,23 @@ Started: 16 February
 All homework completed.
 
 More details can be found in this [folder](/de-zoomcamp-week-5-batch-processing)
+
+### Week 6: Stream processing
+
+Started: 16 February
+
+* Basics
+    * What is Kafka
+    * Internals of Kafka, broker
+    * Partitoning of Kafka topic
+    * Replication of Kafka topic
+* Consumer-producer
+* Schemas (avro)
+* Streaming
+* Kafka streams
+* Kafka connect
+* Alternatives (PubSub/Pulsar)
+
+Homeworkd TDB
+
+More details can be found in this [folder](/de-zoomcamp-week-6-stream-processing)
