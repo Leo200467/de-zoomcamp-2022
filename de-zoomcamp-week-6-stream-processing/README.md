@@ -8,13 +8,6 @@
 - [X] Avro and Schema registry
 
 ### KStreams
-<<<<<<< HEAD
-- [X] KStream Basics
-- [ ] KStream Join and Windowing
-- [ ] KStream Advanced Features
-- [X] Python Faust
-    - [X] Faust Docs
-    - [X] KStream vs Faust
 - [X] KStream Basics
 - [ ] KStream Join and Windowing
 - [ ] KStream Advanced Features
