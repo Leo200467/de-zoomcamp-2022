@@ -9,14 +9,14 @@
 
 ### KStreams
 - [X] KStream Basics
-- [X] KStream Join and Windowing
-- [X] KStream Advanced Features
+- [ ] KStream Join and Windowing
+- [ ] KStream Advanced Features
 - [X] Python Faust
     - [X] Faust Docs
     - [X] KStream vs Faust
-- [X] JVM Library
-    - [X] Confluent Kafka Stream
+- [ ] JVM Library
+    - [ ] Confluent Kafka Stream
 
 ### Kafka Connect and KSQL
-- [X] Kafka Connect  
-- [X] KSQL  
+- [ ] Kafka Connect  
+- [ ] KSQL  
