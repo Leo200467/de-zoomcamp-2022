@@ -95,6 +95,10 @@ Started: 16 February
 * Kafka connect
 * Alternatives (PubSub/Pulsar)
 
-Homeworkd TDB
+All homework completed.
 
 More details can be found in this [folder](/de-zoomcamp-week-6-stream-processing)
+
+### Week 7: Final Project 
+
+Final project is available [here](https://github.com/Leo200467/data-engineering-project)
